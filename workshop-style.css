@@ -1,0 +1,79 @@
+
+
+/****************For workshop template***********************************/
+#sidebar {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.wrap-sidebar {
+    margin-bottom: 0px;
+    padding: 30px;
+    background-color: #FFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    position: relative;
+}
+
+#preload img{ 
+    width:100px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 45%;
+}
+
+#preload label {
+    font-family: "Helvetica";
+    font-weight: bolder;
+    line-height: 1.4em;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    left: 40%;
+}
+
+#combine{
+	display: inline;
+}
+
+#organizers {
+	display: inline;
+	width: 40%;
+	float: left;
+}
+
+#search{
+	float:right;
+}
+
+#org{
+	width: 100%;
+	display: inline;
+}
+
+#searchEvents{
+	width: 100%;
+	display: inline;
+}
+
+#searchsubmit{
+	display: inline;
+}
+
+#table{
+	clear: both;
+}
+
+#note {
+    background-color: #FCF8E3;
+    font-family: "Helvetica";
+    padding: 15px;
+    font-weight: bolder;
+    line-height: 1.4em;
+    color: rgb(251,113,41);  
+    font-size: 16px;
+    border-radius: 4px;
+}
