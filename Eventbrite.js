@@ -15,7 +15,7 @@ function listOrganizers() {
 	xmlhttp.open("GET","https://www.eventbriteapi.com/v3/users/UserID/organizers/?format=json",true);
 	xmlhttp.setRequestHeader("Authorization","Bearer TOKEN");
 	xmlhttp.setRequestHeader("Content-Type","application/json");
-    xmlhttp.setRequestHeader("Accept","application/json");
+    	xmlhttp.setRequestHeader("Accept","application/json");
 	xmlhttp.send();
 	xmlhttp.onreadystatechange = function() {
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
